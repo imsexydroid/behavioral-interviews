@@ -1,6 +1,6 @@
 import "./App.css";
 import data from "../behaviorals.json";
-import VideoPlayer from "./VIdeoPlayer";
+import VideoPlayer from "./VideoPlayer";
 function App() {
   return (
     <>
