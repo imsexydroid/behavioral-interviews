@@ -8,6 +8,7 @@ function App() {
       {data.behaviorals.map((item) => {
         return (
           <VideoPlayer
+            key={item.name}
             name={item.name}
             description={item.description}
             vimeoId={item.video.vimeoId}

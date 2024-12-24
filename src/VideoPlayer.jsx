@@ -16,9 +16,9 @@ const VideoPlayer = ({ name, description, vimeoId, instructor }) => {
           width="1066"
           height="599"
           src={`https://rev-proxy-swart.vercel.app/${vimeoId}`}
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </div>
